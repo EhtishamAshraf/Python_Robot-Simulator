@@ -107,11 +107,15 @@ def find_silver_token():
     R.see() function details could be found here: https://github.com/CarmineD8/python_simulator 
     """
     dist=100
-    for token in R.see(): # getting all the values of the R.see() function in token variable. 
+    # Details of R.see():
+    # Each Silver and Golden token has markers stuck to them.
+    # R.see() returns a list of all the markers the robot can see as marker objects.
+    # Each marker object has different attributes e.g, dist, code, rot_y etc.
+    for token in R.see():  
         if token.dist < dist and token.info.marker_type is MARKER_TOKEN_SILVER:
             dist=token.dist
             Silver_ID=token.info.code # This gives us the unique code associated with each Silver Token
-	    rot_y=token.rot_y
+            rot_y=token.rot_y
     if dist==100:
 	return -1, -1, -1
     else:
@@ -130,7 +134,7 @@ def find_golden_token():
         if token.dist < dist1 and token.info.marker_type is MARKER_TOKEN_GOLD:
             dist1=token.dist
             Golden_ID=token.info.code # This gives us the unique code associated with each Silver Token
-	    rot_y1=token.rot_y
+            rot_y1=token.rot_y
     if dist1==100:
 	return -1, -1, -1
     else:
