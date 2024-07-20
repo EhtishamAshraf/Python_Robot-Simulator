@@ -68,7 +68,7 @@ Now open terminal, move to the robot-sim directory and type the following comman
     python2 run.py solution.py
     ```  
 ## Demo Video
-
+Click on the image below to watch the youtube video of the simulation
 
 [![Watch the video](https://github.com/EhtishamAshraf/Python_Robot-Simulator/blob/main/Simulation%20results.png)](https://youtu.be/IOqr1lV64xU)
 
