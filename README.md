@@ -69,7 +69,9 @@ Now open terminal, move to the robot-sim directory and type the following comman
     ```  
 ## Demo Video
 
-[Watch the video](https://github.com/EhtishamAshraf/Python_Robot-Simulator/blob/main/Simulation.mkv)
+
+[![Watch the video](https://github.com/EhtishamAshraf/Python_Robot-Simulator/blob/main/Simulation%20results.png)](https://youtu.be/IOqr1lV64xU)
+
 
 # Flow of the code
 1. Check if the unique ID of the visible Silver token is already present in the list or not?
