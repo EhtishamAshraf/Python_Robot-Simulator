@@ -2,6 +2,9 @@
 Python Robotics Simulator is developed by [Student Robotics](https://studentrobotics.org/). 
 I have made use of the simulator to simulate a mobile robot to find and grab the Silver tokens from the Arena and to pair them with the Golden Tokens. 
 
+![FlowChart](https://github.com/EhtishamAshraf/Python_Robot-Simulator/blob/main/Simulation%20Environment.png)
+
+
 # Download the Simulator
 Open shell and execute the following commands:
 ```bash
